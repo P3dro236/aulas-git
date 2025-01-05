@@ -9,3 +9,4 @@ git revert HEAD -HASH- -> Cria um novo commit com as alterações feitas e retor
 git branch -NOME DA BRANCH- -> Cria uma branch
 git checkout -BRANCH- -> Altera a branch atual para a selecionada
 git checkout -b -NOME DA BRANCH- -> Cria e seleciona uma branch
+git branch -NOME DA BRANCH- -BRANCH A SER COPIADA- -> Usa como espelho uma branch específica
