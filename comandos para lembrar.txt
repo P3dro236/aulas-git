@@ -10,3 +10,5 @@ git branch -NOME DA BRANCH- -> Cria uma branch
 git checkout -BRANCH- -> Altera a branch atual para a selecionada
 git checkout -b -NOME DA BRANCH- -> Cria e seleciona uma branch
 git branch -NOME DA BRANCH- -BRANCH A SER COPIADA- -> Usa como espelho uma branch específica
+
+git merge -NOME DA BRANCH- -> Traz os arquivos de uma branch para a branch atual
