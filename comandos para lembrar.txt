@@ -1,0 +1,4 @@
+git --stat   -> Visualização detalhada do registro 
+git log --oneline -> Resume o conteúdo a uma linha por alteração
+git log -n x -> O x representa o número de mudançãs e serem exibidas no console
+  * Há a possibilidade de unir comandos, por exemplo -> git log --stat -n 2 --oneline
