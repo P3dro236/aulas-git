@@ -5,3 +5,7 @@ git log -n x -> O x representa o número de mudançãs e serem exibidas no conso
 
 git checkout -HASH- -> Retorna os arquivos ao momento desejado
 git revert HEAD -HASH- -> Cria um novo commit com as alterações feitas e retorna a um estado anterior
+
+git branch -NOME DA BRANCH- -> Cria uma branch
+git checkout -BRANCH- -> Altera a branch atual para a selecionada
+git checkout -b -NOME DA BRANCH- -> Cria e seleciona uma branch
